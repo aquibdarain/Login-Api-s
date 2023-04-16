@@ -1,8 +1,8 @@
 require("dotenv").config();
 const express = require('express');
 const app = express();
-
 const userRouter = require("./api/routes/user.router")
+
 port = 3000;
 //  require('./config/db.connection')
 

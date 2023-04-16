@@ -28,7 +28,7 @@ module.exports = {
     // get all user 
     getUsers: callBack => {
         create.query(
-            `select firstName,lastName,gender,email,number from registration`, //id remove kiya ho
+            `select id,firstName,lastName,gender,email,number from registration`, //id remove kiya ho
             [],
             (error, results, fields) => {
                 if (error) {

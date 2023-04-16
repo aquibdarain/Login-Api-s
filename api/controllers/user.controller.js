@@ -88,7 +88,7 @@ module.exports = {
             if (!results) {
                 return res.json({
                     success: 0,
-                    message: "Record not found "
+                    message: "Record not found " //bugs are there 
                 });
             }
             return res.json({
