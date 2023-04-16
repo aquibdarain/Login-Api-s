@@ -1,0 +1,3 @@
+#protection from uploading to git hub
+.env
+node_modules
